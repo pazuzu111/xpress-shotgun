@@ -24,4 +24,4 @@ you will hav a full crud express app, all you have to do is create a database, c
 "pg-promise": "^7.0.3"
 ```
 
-user must install these depencies
+shotgun installs these dependecies for you***
