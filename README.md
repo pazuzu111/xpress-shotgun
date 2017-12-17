@@ -1,10 +1,16 @@
 ![shotgun4 1](https://user-images.githubusercontent.com/31411569/34084846-2702bb12-e355-11e7-9913-e27902c4a7bc.png)
 
 
-# express-shotgun
-
-# before use
-Install bash
+# xpress-shotgun
+xpress-shotgun is an npm module that shotguns an express MVC to your specified directory
+  
+  * a directory will be made along with the model, with methods and sql commands already embedded
+    the controller & the views
+  
+  * you will have a full crud express app, all you have to do is create a database, a node server, 
+    & fll out views to your liking
+    
+# before use INSTALL bash
 
 Bash version can be queried with the --version flag: 
 
@@ -15,17 +21,17 @@ output -> 3.2.53(1)-release
 
 The actual installation is going to happen with HomeBrew, the OS X package manager, if you don’t have it, installed it with the following command:
 ```sh
-$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+1) ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
 Update homebrew packet database and install bash:
 ```sh
-brew update && brew install bash
+2) brew update && brew install bash
 ```
 
 Add the new shell to the list of allowed shells
 ```sh
-sudo bash -c 'echo /usr/local/bin/bash >> /etc/shells'
+3) sudo bash -c 'echo /usr/local/bin/bash >> /etc/shells'
 ```
 Change to the new shell
 ```sh
@@ -33,9 +39,7 @@ chsh -s /usr/local/bin/bash
 ```
 
 # Now close terminal and open again
-
-express-shotgun is a npm module that shotguns an express MVC to your specified directory
-install GLOBALY:
+install shotgun GLOBALY:
 ```sh
 npm install -g xpress-shotgun 
 ```
@@ -43,12 +47,6 @@ once installed run:
 ```sh
 shotgun nameofapp dbname modelname(capital) controllername(plural) singularRESPONSE
 ```
-- a directory will be made along with the model, with methods and sql commands already embedded
-  the controller & the views
-
-- you will have a full crud express app, all you have to do is create a database, a node server, 
-  & fll out views to your liking
-
 # dependecies
 
 ```ssh
