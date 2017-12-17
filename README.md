@@ -32,11 +32,11 @@ chsh -s /usr/local/bin/bash
 # Now close terminal and open again
 
 express-shotgun is a npm module that shotguns an express MVC to your specified directory
-run:
+install GLOBALY:
 ```sh
-npm install shotgun 
+npm install -g xpress-shotgun 
 ```
-once installed run
+once installed run:
 ```sh
 shotgun nameofapp dbname modelname(capital) controllername(plural) singularRESPONSE
 ```
