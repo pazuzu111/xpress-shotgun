@@ -5,8 +5,10 @@ Install bash
 
 Bash version can be queried with the --version flag: 
 
-$ bash --version
-3.2.53(1)-release
+```sh
+bash --version
+```
+output -> 3.2.53(1)-release
 
 The actual installation is going to happen with HomeBrew, the OS X package manager, if you don’t have it, installed it with the following command:
 ```sh
