@@ -38,7 +38,7 @@ npm install shotgun
 ```
 once installed run
 ```sh
-shotgun $1nameofapp $2dbname $3modelname(capital) $4controllername(plural) $5singularRESPONSE
+shotgun nameofapp dbname modelname(capital) controllername(plural) singularRESPONSE
 ```
 - a directory will be made along with the model, with methods and sql commands already embedded
   the controller & the views
