@@ -9,16 +9,23 @@ $ bash --version
 3.2.53(1)-release
 
 The actual installation is going to happen with HomeBrew, the OS X package manager, if you don’t have it, installed it with the following command:
+```sh
 $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
 
 Update homebrew packet database and install bash:
-$ brew update && brew install bash
+```sh
+brew update && brew install bash
+```
 
-# Add the new shell to the list of allowed shells
+Add the new shell to the list of allowed shells
+```sh
 sudo bash -c 'echo /usr/local/bin/bash >> /etc/shells'
-
-# Change to the new shell
+```
+Change to the new shell
+```sh
 chsh -s /usr/local/bin/bash 
+```
 
 # Now close terminal and boot the machine!!!!!!
 
