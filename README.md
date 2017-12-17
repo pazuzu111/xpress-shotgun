@@ -29,22 +29,22 @@ Change to the new shell
 chsh -s /usr/local/bin/bash 
 ```
 
-# Now close terminal and boot the machine!!!!!!
+# Now close terminal and open again
 
-express-shotgun is a npm module that shotguns an express MVC to you rspecified directory
-run 
+express-shotgun is a npm module that shotguns an express MVC to your specified directory
+run:
+```sh
 npm install shotgun 
-
+```
 once installed run
-express-shotgun nameOfApp nameOfMvcMethods
+```sh
+shotgun $1nameofapp $2dbname $3modelname(capital) $4controllername(plural) $5singularRESPONSE
+```
+- a directory will be made along with the model, with methods and sql commands already embedded
+  the controller & the views
 
-a directory will be made along with 
-the model with methods and sql commands already embedded
-the controller & thw views
-
-after you run express-shotgun nameOfApp nameOfMvcMethods
-you will hav a full crud express app, all you have to do is create a database, config file, and a node server
-
+- you will have a full crud express app, all you have to do is create a database, a node server, 
+  & fll out views to your liking
 
 # dependecies
 
