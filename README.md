@@ -42,7 +42,7 @@ chsh -s /usr/local/bin/bash
 
 # installation
 
-install shotgun GLOBALY:
+install shotgun GLOBALLY:
 ```sh
 npm install -g xpress-shotgun 
 ```
