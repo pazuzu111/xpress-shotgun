@@ -39,6 +39,9 @@ chsh -s /usr/local/bin/bash
 ```
 
 # Now close terminal and open again
+
+# installation
+
 install shotgun GLOBALY:
 ```sh
 npm install -g xpress-shotgun 
