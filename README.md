@@ -1,4 +1,3 @@
-![shotgunlogo](https://user-images.githubusercontent.com/31411569/34085384-e89ab736-e35d-11e7-93e1-d29344f4a9bc.png)
 
 
 # xpress-shotgun
