@@ -1,5 +1,5 @@
 ![shotgunlogo1](https://user-images.githubusercontent.com/31411569/34085495-c7f82124-e35f-11e7-97de-f0a36cd80ad2.png)
-
+[![npm version](https://badge.fury.io/js/xpress-shotgun.svg)](https://badge.fury.io/js/xpress-shotgun)
 
 # xpress-shotgun
 xpress-shotgun is a npm module that shotguns an express MVC to your specified directory
