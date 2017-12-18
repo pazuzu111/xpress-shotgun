@@ -2,7 +2,7 @@
 
 
 # xpress-shotgun
-xpress-shotgun is an npm module that shotguns an express MVC to your specified directory
+xpress-shotgun is a npm module that shotguns an express MVC to your specified directory
   
   * a directory will be made along with the model, with methods and sql commands already embedded
     the controller & the views
