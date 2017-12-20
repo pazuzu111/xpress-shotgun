@@ -1,5 +1,7 @@
 ![shotgunlogo1](https://user-images.githubusercontent.com/31411569/34085495-c7f82124-e35f-11e7-97de-f0a36cd80ad2.png)
-[![npm version](https://badge.fury.io/js/xpress-shotgun.svg)](https://badge.fury.io/js/xpress-shotgun)
+<video width="320" height="240" autoplay>
+  <source src="https://s3-us-west-2.amazonaws.com/converterpoint-2/encodings/4cb530bc6454ffe3a23f8fdaec7e9c4f.mp4" type="video/mp4">
+</video>
 
 # xpress-shotgun
 ![ezgif com-video-to-gif](https://user-images.githubusercontent.com/31411569/34189263-aafa2400-e508-11e7-8fd2-8f5b828deb75.gif)
