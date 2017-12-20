@@ -64,7 +64,8 @@ shotgun nameofapp dbname modelname(capital) controllername(plural) singularRESPO
 # PG promise examples
 * Simple SELECT
 
-* ES5
+# ES5
+```ssh
 db.any('SELECT * FROM users WHERE active = $1', [true])
     .then(function(data) {
         // success;
@@ -72,8 +73,9 @@ db.any('SELECT * FROM users WHERE active = $1', [true])
     .catch(function(error) {
         // error;
     });
-    
-* ES6
+  ```
+# ES6
+```ssh
 try {
     const users = yield db.any('SELECT * FROM users WHERE active = $1', [true]);
     // success
@@ -81,8 +83,9 @@ try {
 catch(e) {
    // error
 }
-
-* ES7
+```
+# ES7
+```ssh
 try {
     const users = await db.any('SELECT * FROM users WHERE active = $1', [true]);
     // success
@@ -90,3 +93,4 @@ try {
 catch(e) {
     // error
 }
+```
