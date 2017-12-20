@@ -10,6 +10,9 @@ xpress-shotgun is a npm module that shotguns an express MVC to your specified di
   * you will have a full crud express app, all you have to do is create a database, a node server, 
     & fll out views to your liking
     
+  * shotgun also takes care of the npm init & installs ejs(viewengine) and pg-promise(more info below)
+
+    
 # before use INSTALL bash
 
 Bash version can be queried with the --version flag: 
@@ -58,4 +61,32 @@ shotgun nameofapp dbname modelname(capital) controllername(plural) singularRESPO
 "pg-promise": "^7.0.3"
 ```
 
-shotgun installs these dependecies for you***
+# PG promise examples
+* Simple SELECT
+
+* ES5
+db.any('SELECT * FROM users WHERE active = $1', [true])
+    .then(function(data) {
+        // success;
+    })
+    .catch(function(error) {
+        // error;
+    });
+    
+* ES6
+try {
+    const users = yield db.any('SELECT * FROM users WHERE active = $1', [true]);
+    // success
+} 
+catch(e) {
+   // error
+}
+
+* ES7
+try {
+    const users = await db.any('SELECT * FROM users WHERE active = $1', [true]);
+    // success
+} 
+catch(e) {
+    // error
+}
