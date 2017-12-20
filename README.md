@@ -2,6 +2,8 @@
 [![npm version](https://badge.fury.io/js/xpress-shotgun.svg)](https://badge.fury.io/js/xpress-shotgun)
 
 # xpress-shotgun
+![ezgif com-video-to-gif](https://user-images.githubusercontent.com/31411569/34189263-aafa2400-e508-11e7-8fd2-8f5b828deb75.gif)
+
 xpress-shotgun is a npm module that shotguns an express MVC to your specified directory
   
   * a directory will be made along with the model, with methods and sql commands already embedded
