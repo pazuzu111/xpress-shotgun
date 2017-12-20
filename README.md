@@ -61,7 +61,19 @@ shotgun nameofapp dbname modelname(capital) controllername(plural) singularRESPO
 "pg-promise": "^7.0.3"
 ```
 
-# PG promise examples
+# PG promise 
+
+PG-PROMISE grants you accesss to DB query methods
+  * Automatic connections
+  * Automatic transactions
+  * Powerful query-formatting engine
+  * Support for ES6 generators and ES7 async/await
+  * Declarative approach to handling query results
+  * Global events reporting for central handling
+  * Extensive support for external SQL files
+  * Support for all promise libraries
+
+# examples
 * Simple SELECT
 
 # ES5
@@ -93,4 +105,42 @@ try {
 catch(e) {
     // error
 }
+```
+
+****************************************************************************************
+# ejs
+
+Features
+
+  * Control flow with <% %>
+  * Escaped output with <%= %> (escape function configurable)
+  * Unescaped raw output with <%- %>
+  * Newline-trim mode ('newline slurping') with -%> ending tag
+  * Whitespace-trim mode (slurp all whitespace) for control flow with <%_ _%>
+  * Custom delimiters (e.g., use <? ?> instead of <% %>)
+  * Includes
+  * Client-side support
+  * Static caching of intermediate JavaScript
+  * Static caching of templates
+  * Complies with the Express view system
+  
+# Examples
+```ssh
+<% if (user) { %>
+  <h2><%= user.name %></h2>
+<% } %>
+Try EJS online at: https://ionicabizau.github.io/ejs-playground/.
+```
+# Usage
+```ssh
+var template = ejs.compile(str, options);
+template(data);
+// => Rendered HTML string 
+ 
+ejs.render(str, data, options);
+// => Rendered HTML string 
+ 
+ejs.renderFile(filename, data, options, function(err, str){
+    // str => Rendered HTML string 
+});
 ```
