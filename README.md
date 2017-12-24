@@ -24,17 +24,17 @@ output -> 3.2.53(1)-release
 
 The actual installation is going to happen with HomeBrew, the OS X package manager, if you don’t have it, installed it with the following command:
 ```sh
-1) ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
 Update homebrew packet database and install bash:
 ```sh
-2) brew update && brew install bash
+brew update && brew install bash
 ```
 
 Add the new shell to the list of allowed shells
 ```sh
-3) sudo bash -c 'echo /usr/local/bin/bash >> /etc/shells'
+sudo bash -c 'echo /usr/local/bin/bash >> /etc/shells'
 ```
 Change to the new shell
 ```sh
