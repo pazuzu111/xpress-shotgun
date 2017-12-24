@@ -22,7 +22,7 @@ bash --version
 ```
 output -> 3.2.53(1)-release
 
-The actual installation is going to happen with HomeBrew, the OS X package manager, if you don’t have it, installed it with the following command:
+The actual installation is going to happen with HomeBrew, the OS X package manager, if you don’t have it, install it with the following command:
 ```sh
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
